@@ -108,7 +108,15 @@ return {
       f = { "<cmd>Telescope dap frames<cr>", "Dap Frames" },
     },
   },
-  T = {
+  ["/"] = {
+    "<cmd>Pick grep_live<cr>",
+    "Live Grep",
+  },
+  [" "] = {
+    "<cmd>Pick files<cr>",
+    "Pick File",
+  },
+  x = {
     name = "+Todo",
     t = { "<cmd>TodoTelescope<cr>", "Todo" },
     T = { "<cmd>TodoTelescope keywords=TODO,FIX,FIXME<cr>", "Todo/Fix/Fixme" },
